@@ -1,5 +1,6 @@
 {
 	"name": "reactfolio",
+	"homepage": "http://fatimasouliman/fatima-souliman-task2-adv",
 	"version": "1.1.0",
 	"description": "Personal portfolio template built using Reactjs",
 	"author": {
@@ -29,6 +30,8 @@
 		"web-vitals": "^2.1.4"
 	},
 	"scripts": {
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build",
 		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",

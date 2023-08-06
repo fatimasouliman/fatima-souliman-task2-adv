@@ -8,7 +8,7 @@ import { BrowserRouter } from "react-router-dom";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
 	<React.StrictMode>
-		<BrowserRouter>
+		<BrowserRouter basename={'/fatima-souliman-task2-adv'}>
 			<App />
 		</BrowserRouter>
 	</React.StrictMode>
