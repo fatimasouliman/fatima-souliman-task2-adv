@@ -29,7 +29,7 @@ const ReadArticle = () => {
 	`;
 
 	return (
-		Fragment<React.>
+		<React.Fragment>
 			<Helmet>
 				<title>{`${article().title} | ${INFO.main.title}`}</title>
 				<meta name="description" content={article().description} />
